@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /application/
+Disallow: /asset/
+Disallow: /images/
+Disallow: /Modular/
+Disallow: /system/
