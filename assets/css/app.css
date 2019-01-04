@@ -1,0 +1,305 @@
+/* font --- */
+	@font-face {
+		font-family: "Gilroy ExtraBold";
+		src: url("../fonts/Gilroy-FREE/Gilroy-ExtraBold.otf");
+	}
+
+	@font-face {
+		font-family: "Gilroy Light";
+		src: url("../fonts/Gilroy-FREE/Gilroy-Light.otf");
+	}
+
+	@font-face {
+		font-family: "Office Code Pro Bold";
+		src: url("../fonts/Office Code Pro/OfficeCodePro-Bold.ttf");
+	}
+
+	@font-face {
+		font-family: "Office Code Pro Bold Italic";
+		src: url("../fonts/Office Code Pro/OfficeCodePro-BoldItalic.ttf");
+	}
+
+	@font-face {
+		font-family: "Office Code Pro Bold Light";
+		src: url("../fonts/Office Code Pro/OfficeCodePro-Light.ttf");
+	}
+
+	@font-face {
+		font-family: "Office Code Pro Medium";
+		src: url("../fonts/Office Code Pro/OfficeCodePro-Medium.ttf");
+	}
+
+	@font-face {
+		font-family: "Office Code Pro Relugar";
+		src: url("../fonts/Office Code Pro/OfficeCodePro-Regular.ttf");
+	}
+
+	@font-face {
+		font-family: "Khula Light";
+		src: url("../fonts/Khula/Khula-Light.ttf");
+	}
+
+	@font-face {
+		font-family: "Khula Regular";
+		src: url("../fonts/Khula/Khula-Regular.ttf");
+	}
+
+	@font-face {
+		font-family: "Khula SemiBold";
+		src: url("../fonts/Khula/Khula-SemiBold.ttf");
+	}
+
+	@font-face {
+		font-family: "Khula Bold";
+		src: url("../fonts/Khula/Khula-Bold.ttf");
+	}
+
+	@font-face {
+		font-family: "Khula ExtraBold";
+		src: url("../fonts/Khula/Khula-ExtraBold.ttf");
+	}
+/* END font --- */
+
+/* brand */
+	.brand{
+		/*imag*/
+		width: 245px;
+		height: auto;
+
+	}
+	.brand-nav{
+		/*imag*/
+		/* margin: auto 0 auto 1%; */
+
+		width: 110px;
+		height: auto;
+	}
+/* END brand */
+
+
+/* container --- */
+	html,body{
+		margin: 0;
+		padding: 0;
+	}
+	header{
+		width: 100%;
+		padding: 10px;
+		position: relative;
+	}
+	section{
+		margin: auto;
+		text-align: left;
+	}
+	section > section{
+		margin: 0 0 50px 0;
+	}
+	.container{
+		width: 100%;
+	}
+	.row{
+		margin: 15% auto;
+		width: auto;
+	}
+	.content{
+		margin: auto;
+		width: auto;
+		padding: 10px;
+		text-align: center;
+	}
+	.container-face{
+		margin: auto auto auto 15%;
+		
+		width: 45%;
+		padding: 3%;
+
+		text-align: center;
+	}
+	.content-nav{
+		margin: auto auto auto 5%;
+		width: auto;
+
+		text-align: center;
+	}
+
+	hgroup h1,h5{
+		margin: 3pt 0 0 0;
+		padding: 0;
+
+		line-height: 1;
+	}
+
+	.report{
+		margin: 5% auto auto 15%;
+		padding: 0.5% 0 0 3%;
+
+		width: 45%;
+	}
+
+	a:focus{
+		outline: none;
+	}
+
+	.link{
+		display: inline-block;
+	}
+
+	.input-nav{
+		width: 55%;
+		height: 75%;
+
+		margin-left: 15%;
+	}
+
+	.input-top{
+		width: 5%;
+		height: 75%;
+		margin-right: 5%;
+		margin-left: 5%;
+		
+		/* margin-left: 15%; */
+	}
+	.top{
+		text-align: center;
+	}
+
+	.input-search{
+		width: 65%;
+		height: 9%;
+
+		margin: auto;
+
+	}
+	
+	.logo-nav{
+		top:25%;
+		left:3%;
+		width: 10%;
+
+		position: absolute;
+	}
+/* END container --- */
+
+
+/* POSITION --- */
+	.center{
+		text-align: center;
+	}
+/* END POSITION --- */
+
+
+/*  FONT ---- */
+	h1{
+		font-family: "Khula light";
+		/* color:#28282A; */
+		color:#003DA8;
+		
+		font-size: 18px;
+	}
+
+	h5{
+		font-family: "Khula light";
+		color: rgb(129, 127, 127);
+		/* color:#28282A; */
+		
+		/* font-size: normal; */
+	}
+
+	.desc-web > p{
+		padding: 0;
+		
+		font-family: "Khula Regular";
+		font-size: small;
+
+	}
+
+	section > h5{
+		padding: 15px 0 0 0;
+		letter-spacing: 0.012em;
+	}
+
+	section > div > p{
+		margin: 3pt 0 0 0;
+		letter-spacing: 0.012em;
+	}
+/*  END FONT ---- */
+
+
+.off{
+	visibility: hidden;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+	background-color: #7b8492;
+	color: white;
+	/* padding: 16px; */
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	
+	width: 45px;
+	height: 45px;
+	
+	/* padding: 0 31px 0 31px; */
+
+	border-radius: 50%;
+   }
+   
+
+   .login-act{
+	background-color: #7b8492;
+	color: white;
+	/* padding: 16px; */
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	
+	width: 145px;
+	height: 45px;
+	
+	/* padding: 0 31px 0 31px; */
+
+	border-radius: 32rem;
+   }
+   /* Dropdown button on hover & focus */
+   .dropbtn:hover, .dropbtn:focus,.login-act:hover,.login-act:focus {
+	background-color: rgb(157, 191, 214);
+	outline: 0 !important;
+   }
+   
+   /* The container <div> - needed to position the dropdown content */
+   .dropdown {
+	position: relative;
+	display: inline-block;
+   }
+   
+   /* Dropdown Content (Hidden by Default) */
+   .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+   }
+   
+   /* Links inside the dropdown */
+   .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+   }
+   
+   /* Change color of dropdown links on hover */
+   .dropdown-content a:hover {background-color: #ddd}
+   
+   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+   .show {display:block;}
+
+
+   .dropdown,.input-nav,.input-top{
+	   display: inline-block;
+   }

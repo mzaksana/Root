@@ -1,0 +1,95 @@
+/* attribute --- */
+
+	/* Style the navbar
+	header {
+		overflow: hidden;
+		background-color: #333;
+	} */
+
+	/* Navbar links */
+	/* #navbar a {
+		float: left;
+		display: block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px;
+		text-decoration: none;
+	} */
+
+	/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+	.sticky {
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+
+	.input-type{
+		width: 100%;
+		height: 100%;
+
+		padding: 0 31px 0 31px;
+
+		border-radius: 32rem;
+		border-style: none;
+		outline: none;
+		font-family: "Office Code Pro Medium";
+		color:#28282A;
+		font-size: x-large;
+	}
+
+	.input-type-nav{
+		width: 90%;
+		height: 45px;
+	
+		padding: 0 31px 0 31px;
+	
+		border-radius: 32rem;
+	
+		font-family: "Office Code Pro Medium";
+		color:#28282A;
+		border-style: none;
+		outline: none;
+		font-size: medium;
+	}
+	.input-type-login{
+		width: 100%;
+		height: 45px;
+		margin: 7px 0 7px 0;
+		padding: 0 31px 0 31px;
+	
+		border-radius: 32rem;
+	
+		font-family: "Office Code Pro Medium";
+		color:#28282A;
+		border-style: none;
+		outline: none;
+		font-size: medium;
+	}
+	button{
+		width: 150px;
+		height: 50px;
+	}
+/* END attribute --- */
+
+
+/* https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp */
+	#navbar {
+		position: fixed; /* Make it stick/fixed */
+		top: 0; /* Stay on top */
+		width: 100%; /* Full width */
+		transition: top 0.3s; /* Transition effect when sliding down (and up) */
+	}
+
+
+	.input-top-search{
+		width: 9%;
+		margin: auto;
+		display: inline-block;
+	}
+
+	.input-bar{
+		width: 30%;
+		margin: auto;
+		display: inline-block;
+	}

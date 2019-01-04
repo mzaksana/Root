@@ -1,0 +1,20 @@
+	
+	hgroup > h1:link {
+		text-decoration: none;
+	}
+
+	hgroup > h1:visited {
+		text-decoration: none;
+	}
+
+	hgroup > h1:hover {
+		text-decoration: underline;
+		/* border-bottom: 0.1px solid #000;
+		display: inline-block;
+		line-height: normal; */
+		cursor: pointer;
+	}
+
+	hgroup > h1:active {
+		text-decoration: underline;
+	}
